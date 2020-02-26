@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed9ed4a5-b4d9-49f5-911c-562dabc5ecb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/postsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582534804606</updated>
       <workItem from="1582534806523" duration="6790000" />
-      <workItem from="1582720086670" duration="1917000" />
+      <workItem from="1582720086670" duration="2790000" />
     </task>
     <servers />
   </component>
@@ -184,6 +183,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582618903484" />
+    <state x="567" y="228" key="NewPhpClassDialog" timestamp="1582724295807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="567" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1582724295807" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582720107004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
