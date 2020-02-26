@@ -26,3 +26,15 @@ Route::get('test',function (){
        'name' => $name
    ]);
 });
+Route::get('/post/{post}',function($post){
+    $posts=[
+        'my-first-post' => 'this is my first post',
+        'my-second-post' => 'this is my second post'
+    ];
+    if (! array_key_exists($post,$posts)){
+        abort(404,'Sorry this post does not exist');
+    }
+    return view('post',[
+        'post' => $posts[$post]
+    ]);
+});
