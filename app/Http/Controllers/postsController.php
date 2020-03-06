@@ -8,17 +8,17 @@ use Illuminate\Support\Facades\DB;
 class postsController
 {
     public function show($post){
-        $user = DB::select('select * from users');
-        $posts=[
-            'my-first-post' => 'this is my first post',
-            'my-second-post' => 'this is my second post'
-        ];
-        if (! array_key_exists($post,$posts)){
-            abort(404,'Sorry this post does not exist');
+        $post = \DB::table('posts')->where('postName',$post)->first();
+        if (! $post){
+            abort(404);
         }
-        print_r($user);
+
+       /* if (! array_key_exists($post,$posts)){
+            abort(404,'Sorry this post does not exist');
+        }*/
+
         return view('post',[
-            'post' => $posts[$post]
+            'post' => $post
         ]);
     }
 }

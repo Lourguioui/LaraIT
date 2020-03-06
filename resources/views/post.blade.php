@@ -7,6 +7,6 @@
     <title>Laravel</title>
 </head>
 <body>
-        <h1>{{$post}}</h1>
+        <h1>{{$post->Post}}</h1>
 </body>
 </html>
